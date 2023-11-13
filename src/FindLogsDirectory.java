@@ -6,7 +6,7 @@ import org.apache.commons.io.comparator.LastModifiedFileComparator;
 
 public class FindLogsDirectory {
     public static void main(String[] args) {
-        File DDrive = new File("/"); // "D:" potem zmienić
+        File DDrive = new File("D:");
         if (DDrive.exists()) {
             File logsDirectory = findLogsDirectory(DDrive);
 
